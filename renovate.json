@@ -4,13 +4,13 @@
   "prConcurrentLimit": 10,
   "packageRules": [
     {
-      "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch",
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "automergeType": "pr"
     },
     {
-      "matchDepTypes": ["devDependencies"], // <-- Matcher
-      "groupName": "dev dependencies" // <-- Aktion
+      "groupName": "minor dependencies",
+      "matchUpdateTypes": ["minor"]
     }
   ]
 }
