@@ -8,7 +8,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <!-- absichtlich veraltete Version – aktuell: 3.x -->
-        <version>2.5.0</version>
+        <version>4.0.4</version>
         <relativePath/>
     </parent>
 
